@@ -1,0 +1,105 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 400;
+    background-color: #b3c8c5; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+}
+
+.container {
+    width: 945px; 
+    height: 595px; 
+    background-color: #f0f0f0;
+    display: flex;
+}
+
+.duck-form {
+    background-color: #BE0909; 
+    padding: 20px;
+    width: 60%; 
+    color: #fff; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.form{
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: #fff; 
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    background-color: transparent; 
+    border: none;
+    border-bottom: 1px solid #fff; 
+    color: #fff;
+    font-size: 14px;
+}
+#name, 
+#message {
+    width: 400px; 
+}
+
+#email,
+#msg_regarding {
+    width: 160px ;
+}
+input::placeholder{
+    color: #fff;
+    letter-spacing: 7px;
+    font-size: 18px;
+}
+textarea::placeholder{
+    color: #fff;
+    letter-spacing: 7px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+textarea {
+    height: 80px;
+    
+}
+
+.submit-btn-container {
+    text-align: center;
+}
+
+.submit-btn {
+    background-color: #9DBEBB;
+    color: #fff;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background-color: #033d41;
+}
+
+.right-section {
+    width: 40%;
+    background-color: #FFB039; 
+    height: 100%;
+}
+.duck_img{
+    position: absolute;
+    top: 205px;
+    left: 700px;
+}
